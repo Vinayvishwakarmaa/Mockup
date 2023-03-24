@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(195, 183, 168);
+}
+    /* Navigation Bar Start */
+ 
+li{
+     font-size: 1.3rem;
+     text-decoration: none;
+    }
+
+ul{
+    display: flex;
+    margin-top: 30px;
+    padding-left: 400px;
+    gap: 55px;
+}
+
+nav ul li{
+    list-style: none;
+    cursor: pointer;
+    
+}
+nav ul li a{
+   text-decoration: none;
+   color: black;
+   font-family: 'Roboto Condensed', sans-serif;
+}
+nav ul li a:hover{
+    background-color: rgb(128, 128, 128);
+    color: black;
+    text-decoration: underline;
+}
+
+nav ul li a:active{
+    background-color: yellow;
+}
+    /* Navigation Bar end */
+
+/* left-container Start*/
+.left-container{
+    padding-left: 150px;
+    margin-top: 12px;
+}
+.left-container h1{
+    margin-top: 200px;
+
+}
+ /* left-container End */
+ .left-container h1{
+    font-size: 2.3rem;
+    font-family: 'Roboto Condensed', sans-serif;
+ }
+
+ .left-container p{
+    margin-top: 10px;
+    font-size: 1.5rem;
+    margin-top: 12px;
+    font-family: 'Roboto Condensed', sans-serif;
+ }
+ .submit{
+    margin-top: 18px;
+ }
+
+ button{
+    width: 90px;
+    height: 40px;
+    background-color: green;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+ }
+
+ button:hover{
+    background-color: red;
+    width: 8%;
+ }
+
+ /* First Container */
+
+.first-container img {
+        padding-left: 900px;
+        margin-top: 50px;
+        border-radius: 30px;
+    }
+
+ /* First container End */
+
+/* Second Contaiiner Start*/
+
+.second-container img {
+     padding-left: 600px;
+     border-radius: 30px; 
+}
+   /* Second Container End */
+  
+  /* Third Container Start */
+  .third-container img{ 
+    margin-top: 5px;
+    padding-left: 900px;
+    border-radius: 30px;
+    padding-bottom: 5%;
+  }
+  /* Third Container End */
